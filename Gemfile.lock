@@ -1,9 +1,16 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    coderay (1.1.1)
+    method_source (0.8.2)
     minitest (5.2.1)
     minitest-homework (0.0.1)
       minitest (~> 5.2)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    slop (3.6.0)
 
 PLATFORMS
   ruby
@@ -11,3 +18,7 @@ PLATFORMS
 DEPENDENCIES
   minitest (~> 5.2)
   minitest-homework
+  pry
+
+BUNDLED WITH
+   1.12.5
